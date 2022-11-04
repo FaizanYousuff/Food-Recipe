@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Foody</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_joke_fragment">Joke</string>
+    <string name="favorite_fragment">Favorite</string>
+    <string name="recipes_fragment">Recipes</string>
+    <string name="meal_type">Meal Type</string>
+    <string name="main_course">Main Course</string>
+    <string name="side_dish">Side dish</string>
+    <string name="dessert">Dessert</string>
+    <string name="appetizer">Appetizer</string>
+    <string name="salad">Salad</string>
+    <string name="bread">Bread</string>
+    <string name="breakfast">BreakFast</string>
+    <string name="soup">Soup</string>
+    <string name="beverage">Beverage</string>
+    <string name="sauce">Sauce</string>
+    <string name="marinade">Marinade</string>
+    <string name="finger_food">Finger Food</string>
+    <string name="snack_chip">Snack Chip</string>
+    <string name="drink_chip">Drink Chip</string>
+    <string name="diet_type">Diet Type</string>
+    <string name="ketogenic">Ketogenic</string>
+    <string name="vegan">vegan</string>
+    <string name="pescetarian">pescetarian</string>
+    <string name="paleo">Paleo</string>
+    <string name="primal">Primal</string>
+    <string name="whole_30">Whole 30</string>
+    <string name="apply">Apply</string>
+    <string name="search">search</string>
+    <string name="description">Description</string>
+    <string name="cheap">Cheap</string>
+    <string name="healthy">Healthy</string>
+    <string name="dairy_free">Dairy Free</string>
+    <string name="gluten_free">Gluten Free</string>
+    <string name="vegeteranian">Vegeteranian</string>
+    <string name="save_to_favorites">Save to Favorites</string>
+    <string name="no_favorites_recipe">No Favorites Recipe</string>
+
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+    <string name="share_food_joke">Share </string>
+</resources>

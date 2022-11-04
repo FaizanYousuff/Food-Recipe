@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EA</color>
+    <color name="colorPrimaryDark">#5502C8</color>
+    <color name="colorAccent">#9D46FF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="lightGray">#F9F9F9</color>
+    <color name="mediumGray">#D1D1D1</color>
+    <color name="lightMediumGray">#80D1D1D1</color>
+    <color name="darkGray">#4B4B4B</color>
+    <color name="dark">#313C44</color>
+    <color name="darker">#151B20</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF4646</color>
+    <color name="yellow">#FFC114</color>
+    <color name="green">#00C980</color>
+
+    <color name="backGroundColor">@color/lightGray</color>
+
+    // Custom Chip Colors
+    <color name="checkChipBackgroundColor">#206200EA</color>
+    <color name="chipBackgroundColor">@color/lightGray</color>
+    <color name="checkChipTextColor">@color/colorPrimary</color>
+    <color name="chipTextColor">@color/darkGray</color>
+
+    // Custom Card view color
+    <color name="strokeColor">@color/lightMediumGray</color>
+    <color name="card_background_color">@color/white</color>
+    <color name="card_background_light_color">#106200EA</color>
+    <color name="title_color">@color/darker</color>
+    <color name="descriptionColor">@color/darkGray</color>
+
+    //
+    <color name="statusBarColor">@color/colorPrimary</color>
+    <color name="contextualStatusBardColor">@color/darker</color>
+    <color name="contextualBackgroundColor">@color/dark</color>
+    <color name="actionBarBackgroundColor">@color/colorPrimary</color>
+
+    // Bottom Sheet
+    <color name="bottomNavBackground">@color/white</color>
+    <color name="bottomNavItem">@color/colorPrimary</color>
+    
+    <color name="placeHolderColor">@color/mediumGray</color>
+
+    <color name="item_color">@color/darker</color>
+
+
+
+
+</resources>
