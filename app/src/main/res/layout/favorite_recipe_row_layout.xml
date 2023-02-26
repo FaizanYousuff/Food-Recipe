@@ -7,7 +7,7 @@
 
         <variable
             name="favoriteEntity"
-            type="com.example.recipes.data.database.entities.FavoriteRecipeEntity" />
+            type="com.mfy.recipes.data.database.entities.FavoriteRecipeEntity" />
 
     </data>
 

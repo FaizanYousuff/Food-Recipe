@@ -6,14 +6,13 @@
     <data>
         <variable
             name="mainViewModel"
-            type="com.example.recipes.MainViewModel" />
+            type="com.mfy.recipes.MainViewModel" />
 
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/ic_food_joke_background"
         tools:context=".ui.fragments.foodJoke.FoodJokeFragment">
 
         <com.google.android.material.card.MaterialCardView

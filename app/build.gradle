@@ -6,16 +6,16 @@ apply plugin: "androidx.navigation.safeargs.kotlin"
 apply plugin: 'dagger.hilt.android.plugin'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     buildToolsVersion "30.0.0"
 
     defaultConfig {
         applicationId "com.example.foody"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
-
+        setProperty("archivesBaseName", "FoodReceipe." + versionCode + "(" + versionName + ")_"+new Date().format('yyMMdd'))
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -63,10 +63,10 @@ dependencies {
 
     // Room components
     kapt "org.xerial:sqlite-jdbc:3.36.0" // Only for computer with M1 CPU
-    implementation "androidx.room:room-runtime:2.2.5"
-    kapt "androidx.room:room-compiler:2.2.5"
-    implementation "androidx.room:room-ktx:2.2.5"
-    androidTestImplementation "androidx.room:room-testing:2.2.5"
+    implementation "androidx.room:room-runtime:2.4.0"
+    kapt "androidx.room:room-compiler:2.4.0"
+    implementation "androidx.room:room-ktx:2.4.0"
+    androidTestImplementation "androidx.room:room-testing:2.4.0"
 
     // Data binding
     kapt "com.android.databinding:compiler:3.2.0-alpha10"
@@ -115,5 +115,8 @@ dependencies {
 
     // Jsoup
     implementation 'org.jsoup:jsoup:1.13.1'
+
+    // Splash screen
+    implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
 
 }

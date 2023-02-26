@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/recipesFragment"
-        android:name="com.example.recipes.ui.fragments.recipe.RecipesFragment"
+        android:name="com.mfy.recipes.ui.fragments.recipe.RecipesFragment"
         android:label="Recipes"
         tools:layout="@layout/fragment_recipes" >
         <action
@@ -23,12 +23,12 @@
     </fragment>
     <fragment
         android:id="@+id/foodJokeFragment"
-        android:name="com.example.recipes.ui.fragments.foodJoke.FoodJokeFragment"
+        android:name="com.mfy.recipes.ui.fragments.foodJoke.FoodJokeFragment"
         android:label="Food Joke"
         tools:layout="@layout/fragment_food_joke" />
     <fragment
         android:id="@+id/favoriteRecipesFragment"
-        android:name="com.example.recipes.ui.fragments.favorite.FavoriteRecipesFragment"
+        android:name="com.mfy.recipes.ui.fragments.favorite.FavoriteRecipesFragment"
         android:label="Favorite"
         tools:layout="@layout/fragment_favorite_recipes" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <dialog
         android:id="@+id/recipesBottomSheet"
-        android:name="com.example.recipes.ui.fragments.recipe.bottomSheet.RecipesBottomSheet"
+        android:name="com.mfy.recipes.ui.fragments.recipe.bottomSheet.RecipesBottomSheet"
         android:label="recipes_bottom_sheet"
         tools:layout="@layout/recipes_bottom_sheet" >
         <action
@@ -46,11 +46,11 @@
     </dialog>
     <activity
         android:id="@+id/detailsActivity"
-        android:name="com.example.recipes.ui.details.DetailsActivity"
+        android:name="com.mfy.recipes.ui.details.DetailsActivity"
         android:label="details_activity"
         tools:layout="@layout/activity_details" >
         <argument
             android:name="result"
-            app:argType="com.example.recipes.model.Result" />
+            app:argType="com.mfy.recipes.model.Result" />
     </activity>
 </navigation>

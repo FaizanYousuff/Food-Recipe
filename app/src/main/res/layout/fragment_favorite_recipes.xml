@@ -6,10 +6,10 @@
     <data>
         <variable
             name="mainViewModel"
-            type="com.example.recipes.MainViewModel" />
+            type="com.mfy.recipes.MainViewModel" />
         <variable
             name="adapter"
-            type="com.example.recipes.adpaters.FavoriteRecipeAdapter" />
+            type="com.mfy.recipes.adpaters.FavoriteRecipeAdapter" />
 
     </data>
 

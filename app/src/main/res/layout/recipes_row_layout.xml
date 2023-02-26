@@ -7,7 +7,7 @@
 
         <variable
             name="result"
-            type="com.example.recipes.model.Result" />
+            type="com.mfy.recipes.model.Result" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
