@@ -10,7 +10,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.foody"
+        applicationId "com.mfy.foodRecipes"
         minSdkVersion 23
         targetSdkVersion 31
         versionCode 1
